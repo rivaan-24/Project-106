@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(to bottom left, rgb(0, 250, 29), rgb(0, 250, 167), rgb(0, 247, 255), rgb(236, 0, 253));
+    text-align: center;
+    font-family: 'Bellota', cursive;
+    letter-spacing: 2px;
+}
+
+#title {
+    font-size: 40px;
+    width: 100%;
+    color: black;
+    text-shadow: 2px 2px 5px rgb(225, 0, 255);
+}
+
+#note_text {
+    font-size: 25px;
+    width: 100%;
+    color: black;
+    text-shadow: 2px 2px 5px rgb(17, 0, 255);
+}
+
+#button_start {
+    font-size: 25px;
+    background-color: rgb(90, 134, 216);
+    width: 20%;
+    color: black;
+    text-shadow: 2px 2px 5px rgb(255, 115, 0);
+    border-radius: 100%;
+    border: 5px outset rgb(255, 0, 81);
+    margin-top: 10px;
+}
+
+#button_start:hover {
+    background-color: blueviolet;
+    text-shadow: 6px 6px 7px pink;
+    font-size: 35px;
+    width: 25%;
+    transition: 1s;
+    border-radius: 25%;
+    border: 4px inset rgb(218, 110, 213);
+    outline: black 2px solid;
+}
+
+#starting_img {
+    border: 10px groove rgb(181, 129, 61);
+}
+
+#starting_img:hover {
+    border-radius: 25%;
+    border: 10px ridge rgb(192, 16, 110);
+    transition: 1.5s;
+    outline: black 2px solid;
+}
+
+#number_of_times_text {
+    font-size: 20px;
+    width: 100%;
+    color: black;
+    text-shadow: 2px 2px 5px rgb(255, 94, 0);
+}
+
+#number_of_times_text:hover {
+    font-size: 30px;
+    transition: 3s;
+    text-shadow: 7px 7px 12px rgb(255, 94, 0);
+}
+
+#animal_sound_name_text {
+    font-size: 20px;
+    width: 100%;
+    color: black;
+    text-shadow: 2px 2px 5px rgb(255, 187, 0);
+}
+
+#animal_sound_name_text:hover {
+    font-size: 30px;
+    transition: 3s;
+    text-shadow: 7px 7px 12px rgb(255, 187, 0);
+}
+
+#footer_text {
+    font-size: 20px;
+    width: 100%;
+    color: black;
+    text-shadow: 2px 2px 5px rgb(17, 255, 0);
+}
+
+.header_div {
+    background-color: white;
+}
+
+.footer_div {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
